@@ -14,6 +14,7 @@ Use this to setup scratch org -> Install latest package -> Create big object -> 
 5. Phantom 25 Spl: 04tGA000005Vi5B ( 3/18/2025 ) 
 6. Phantom 25 Spl 2: 04tGA000005Viy9 ( 7/11/2025 ) - Latest
 
-# Installation URL	
+# Installation 	
 
-https://login.salesforce.com/packaging/installPackage.apexp?p0=04tGA000005Viy9
+[![Install Managed Package in a Sandbox](./images/btn-install-managed-package-sandbox.png)](https://test.salesforce.com/packaging/installPackage.apexp?mgd=true&p0=04tGA000005Viy9)
+[![Install Managed Package in Production](./images/btn-install-managed-package-production.png)](https://login.salesforce.com/packaging/installPackage.apexp?mgd=true&p0=004tGA000005Viy9)
