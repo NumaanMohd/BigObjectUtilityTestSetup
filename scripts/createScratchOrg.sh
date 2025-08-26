@@ -27,7 +27,7 @@ echo "🤘 Loading Account data into scratch org..."
 sf data upsert bulk --sobject Account --file "dataImportFiles\Account.csv" --external-id External_Id__c -w 5 -o "${ORG_NAME}" 
 
 echo "⏲ Installing package, please wait. It may take a while."
-sf package install -p 04tGA000005Viy9 -o "${ORG_NAME}" -w 5
+sf package install -p 04tGA000005VlSH -o "${ORG_NAME}" -w 5
 
 if [ "$?" = "1" ]
 then
